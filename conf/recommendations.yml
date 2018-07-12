@@ -1,4 +1,4 @@
-recommendation: 0
+- recommendation: 0
   description: |
     For this script I'd recommend a light, crisp white wine, just to start the inital runtime off.
     Perhaps an Albarino from Northern spain or an Argentinian Torrontes?
@@ -7,3 +7,23 @@ recommendation: 0
     - light
     - crisp
     - white
+    - argentina
+    - spain
+    - torrentes
+    - ablerino
+- recommendation: 1
+  description: |
+    This is recommend 1
+    Recommend 1
+  tags:
+    - light
+    - crisp
+    - white
+- recommendation: 2
+  description: |
+    This is recommend 2
+    Recommend 2
+  tags:
+    - winedesc1
+    - winedesc2
+    - winedesc3

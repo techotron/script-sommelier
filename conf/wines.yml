@@ -1,4 +1,5 @@
-- name: Wine 0
+- index: 0
+  name: Wine 0
   origin: Northern Spain
   label: This is the label of the wine
   cost: £13.99
@@ -12,21 +13,31 @@
     - light
     - crisp
     - white
-- name: Wine 1
-  origin: California
+    - spain
+    - spanish
+    - albarino
+  url: http://uriForImageOfWine0.png
+- index: 1
+  name: Wine 0
+  origin: Agentina
   label: This is the label of the wine
   cost: £5.30
-  grape: merlot
+  grape: torrontes
   year: 1997
   desc: |
     This is the description of wine 1
   meta:
     times_used: 0
   tags:
-    - winedesc1
-    - winedesc2
-    - winedesc3
-- name: Wine 2
+    - light
+    - crisp
+    - white
+    - argentinian
+    - argentina
+    - torrontes
+  url: http://uriForImageOfWine1.png
+- index: 2
+  name: Wine 0
   origin: Australia
   label: This is the label of the wine
   cost: £4.56
@@ -40,3 +51,4 @@
     - winedesc1
     - winedesc2
     - winedesc3
+  url: http://uriForImageOfWine2.png
