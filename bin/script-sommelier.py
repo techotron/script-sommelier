@@ -3,7 +3,7 @@
 import yaml
 import random
 
-with open("./wines.yml", 'r') as wine_data:
+with open("./conf/wines.yml", 'r') as wine_data:
     try:
         wines = yaml.load(wine_data)
         wine_len = (len(wines) -1)
