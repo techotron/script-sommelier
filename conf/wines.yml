@@ -1,13 +1,17 @@
 - name: Wine 0
-  origin: South France
+  origin: Northern Spain
   label: This is the label of the wine
   cost: £13.99
-  grape: shiraz
+  grape: albarino
   year: 2003
   desc: |
-    This is an ok wine to be honest.
+    This is the description of wine 0
   meta:
     times_used: 0
+  tags:
+    - light
+    - crisp
+    - white
 - name: Wine 1
   origin: California
   label: This is the label of the wine
@@ -15,10 +19,13 @@
   grape: merlot
   year: 1997
   desc: |
-    This is a delicious wine.
-    It's drunk by millions
+    This is the description of wine 1
   meta:
     times_used: 0
+  tags:
+    - winedesc1
+    - winedesc2
+    - winedesc3
 - name: Wine 2
   origin: Australia
   label: This is the label of the wine
@@ -26,6 +33,10 @@
   grape: white
   year: 1998
   desc: |
-    Some say this is absolute piss
+    This is the description from wine 2
   meta:
     times_used: 0
+  tags:
+    - winedesc1
+    - winedesc2
+    - winedesc3
