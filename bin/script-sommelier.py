@@ -15,6 +15,7 @@ with open(".././conf/recommendations.yml", 'r') as recommend_data:
         rand_recommend = random.randint(0, recommends_len)
         recommend_desc = recommends[rand_recommend]["description"]
         recommend_tags = recommends[rand_recommend]["tags"]
+        recommend_colour = recommends[rand_recommend]["colour"]
 
         suggestion_dict = {
             'sommelier': {'Suggestion': recommend_desc}
@@ -30,7 +31,8 @@ with open(".././conf/recommendations.yml", 'r') as recommend_data:
                 for wine in wines:
                     for tag in wine["tags"]:
                         if tag in recommend_tags:
-                            wines_to_return.add(wine["index"])
+                            if recommend_colour in wine["colour"]:
+                                wines_to_return.add(wine["index"])
 
                 for wine_suggestion in list(wines_to_return):
 

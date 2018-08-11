@@ -6,24 +6,49 @@
   tags:
     - light
     - crisp
-    - white
     - argentina
     - spain
     - torrentes
     - ablerino
+  colour: white
 - recommendation: 1
   description: |
-    This is recommend 1
-    Recommend 1
+    This script is packed with complex functions and advanced methods so it would be best suited with a red but looking for some medium bodied to help bring out the novice techniques.
+    Perhaps the Ursa Maior Rioja Reserva 2005 or, for even more intense fruit, try the 2010 Tour de Belfort.
+    Gently pour the wine into a good sized claret glass, taking care to avoid disturbing the sediment. Take a moment to enjoy the nose and it's into the script IDE and you're good to go.
   tags:
-    - light
-    - crisp
-    - white
+    - medium
+    - france
+    - belfort
+    - rioja
+    - spain
+  colour: red
 - recommendation: 2
   description: |
-    This is recommend 2
-    Recommend 2
+    As we cast our eyes over this script, I'm recommending something a little sweeter, to soften the blow of the headache that will inevitably ensue.
+    How about the 2005 Chateau Sauterne, which has Apricot and Honeycomb notes which will really compliment the whitespace and style conflicts which are peppered into the code.
+    But for those of you who enjoy masochism, you really can't do better than a 2007 Paul Cluver Noble Late Harvest Riesling, from the apple growing area of Elgan on the western cape.
+    Enjoy.
   tags:
-    - winedesc1
-    - winedesc2
-    - winedesc3
+    - sweet
+    - dessert
+    - riesling
+    - sauterne
+  colour: white
+- recommendation: 3
+  description: |
+    It's probably been a long day already for you, so I'm now suggesting a digestif.
+    Oh and by the way, I'd hate you to think you have to drink alcohol whilst writing your scripts...I just think you'd enjoy your day even more if you do.
+    Why not round off the confusing logic and inefficient workflows with a Noval 20 year old Tawny Port. Wonderfully mellow with toffee, brazils and hazlenuts that linger forever.
+    Or alternatively a 10 year old Cider Brandy from Somerset, the friendly cousin of Calvados. Or even a generous, peaty slug of Caol Ila Single Malt. That should see you through.
+  tags:
+    - digestif
+  colour: digestif
+- recommendation: 4
+  description: |
+    Hhmm. I'm struggling to find a complimentary with this one.
+    Wait...was this written by Colin Nash or Pete Whitehead?
+    3 litres of White Lightening.
+  tags:
+    - terrible
+  colour: terrible

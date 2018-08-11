@@ -9,10 +9,10 @@
     This is the description of wine 0
   meta:
     times_used: 0
+  colour: white
   tags:
     - light
     - crisp
-    - white
     - spain
     - spanish
     - albarino
@@ -28,27 +28,164 @@
     This is the description of wine 1
   meta:
     times_used: 0
+  colour: white
   tags:
     - light
     - crisp
-    - white
     - argentinian
     - argentina
     - torrontes
   url: http://uriForImageOfWine1.png
 - index: 2
-  name: Wine 0
-  origin: Australia
+  name: Ursa Maior Rioja Reserva
+  origin: Spain
   label: This is the label of the wine
-  cost: £4.56
-  grape: white
-  year: 1998
+  cost: £7.59
+  grape: Tempranillo
+  year: 2005
   desc: |
     This is the description from wine 2
   meta:
     times_used: 0
+  colour: red
   tags:
-    - winedesc1
-    - winedesc2
-    - winedesc3
+    - spain
+    - spanish
+    - rioja
   url: http://uriForImageOfWine2.png
+- index: 3
+  name: Tour de Belfort
+  origin: Southwest France
+  label: This is the label of the wine
+  cost: £13.99
+  grape: Malbec
+  year: 2010
+  desc: |
+    This is the description from wine 3
+  meta:
+    times_used: 0
+  colour: red
+  tags:
+    - france
+    - french
+    - malbec
+  url: http://uriForImageOfWine3.png
+- index: 4
+  name: Chateau Sauterne
+  origin: Bordeaux
+  label: This is the label of the wine
+  cost: £17.95
+  grape: Semillion, Sauv Blanc
+  year: 2005
+  desc: |
+    This is the description from wine 4
+  meta:
+    times_used: 0
+  colour: white
+  tags:
+    - france
+    - french
+    - bordeaux
+    - dessert
+    - sweet
+  url: http://uriForImageOfWine4.png
+- index: 5
+  name: Paul Cluver Noble Late Harvest Riesling
+  origin: South Africa, Elgin Valley
+  label: This is the label of the wine
+  cost: £15.00
+  grape: Riesling
+  year: 2007
+  desc: |
+    This is the description from wine 5
+  meta:
+    times_used: 0
+  colour: white
+  tags:
+    - africa
+    - cape
+    - riesling
+    - dessert
+    - sweet
+  url: http://uriForImageOfWine5.png
+- index: 6
+  name: White Lightening Cider
+  origin: Dregs of Weatherspoons drip trays
+  label: Get hammered
+  cost: £1.50
+  grape: apple
+  year: 2018
+  desc: |
+    This will make you forget
+  meta:
+    times_used: 0
+  colour: terrible
+  tags:
+    - terrible
+  url: http://uriForImageOfWine6.png
+- index: 7
+  name: Special Brew
+  origin: unknown
+  label: There is nothing special about this
+  cost: £0.95
+  grape: hops
+  year: 2018
+  desc: |
+    It's bad when it comes to this
+  meta:
+    times_used: 0
+  colour: terrible
+  tags:
+    - terrible
+  url: http://uriForImageOfWine7.png
+- index: 8
+  name: Noval Twany Port
+  origin: Portugal
+  label: This is the label
+  cost: £24.95
+  grape: port
+  year: 1998
+  desc: |
+    description
+  meta:
+    times_used: 0
+  colour: digestif
+  tags:
+    - port
+    - digestif
+    - portugal
+  url: http://uriForImageOfWine8.png
+- index: 9
+  name: Somerset Cider Brandy
+  origin: Somerset
+  label: This is the label
+  cost: £40.95
+  grape: apple
+  year: 2008
+  desc: |
+    description
+  meta:
+    times_used: 0
+  colour: digestif
+  tags:
+    - cider
+    - brandy
+    - digestif
+  url: http://uriForImageOfWine9.png
+- index: 10
+  name: Caol Ila Single Malt
+  origin: West coast of Scotland
+  label: This is the label
+  cost: £45.95
+  grape: whisky
+  year: 2006
+  desc: |
+    description
+  meta:
+    times_used: 0
+  colour: digestif
+  tags:
+    - whisky
+    - digestif
+    - singlemalt
+  url: http://uriForImageOfWine10.png
