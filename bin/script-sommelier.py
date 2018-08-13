@@ -5,8 +5,9 @@ import yaml
 import random
 #from collections import Counter
 import json
+import os
 
-with open(".././conf/recommendations.yml", 'r') as recommend_data:
+with open("./conf/recommendations.yml", 'r') as recommend_data:
     try:
 
         wines_to_suggest = []
@@ -23,7 +24,7 @@ with open(".././conf/recommendations.yml", 'r') as recommend_data:
 
         wines_to_suggest.append(suggestion_dict)
 
-        with open(".././conf/wines.yml", 'r') as wine_data:
+        with open("./conf/wines.yml", 'r') as wine_data:
             try:
                 wines_to_return = set([])
                 wines = yaml.load(wine_data)
